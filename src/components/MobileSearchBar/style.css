@@ -1,0 +1,11 @@
+.mobile-search-bar{
+    display: none;
+}
+@media only screen and (max-width: 800px) {
+    .mobile-search-bar{
+        display: block;
+        border: 1px solid var(--grey);
+    }
+    
+  }
+

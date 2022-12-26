@@ -1,0 +1,45 @@
+.filter-div{
+    border-top: 1px solid var(--grey);
+    padding:1rem 3rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-x: auto;
+    top: 0;
+    background-color: var(--white);
+   
+    
+}
+.links-box{
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin-right:3rem;
+align-items: center;
+opacity: 0.5;
+border-bottom: 1px solid white;
+min-width: 85px;
+
+}
+.selected-filter{
+   opacity: 1;
+   border-bottom: 1px solid var(--dark);
+   transition: all 0.3s;
+   cursor: pointer;
+
+
+}
+.links-label{
+    font-size: 0.8rem;
+    color: var(--dark);
+    font-weight: 600;
+}
+.links-img{
+    width: 1.5rem;
+    height: 1.5rem;
+    object-fit: contain;
+  
+}
+.selected-label{
+color:var(--black);
+}
