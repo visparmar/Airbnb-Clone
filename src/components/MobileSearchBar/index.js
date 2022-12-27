@@ -14,7 +14,7 @@ export default function MobileSearchBar() {
            
 
                 <div className='Anywhere'>
-                    <div className='where-to'>Where too?</div>
+                    <div className='where-to'>Where to?</div>
                     <span className='Anywhere-name'>Anywhere 
                     <span className='Anywhere-dot'>.</span>  
                     <span className='Anywhere-name'>Any Week</span>   
