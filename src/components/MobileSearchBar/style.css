@@ -1,70 +1,76 @@
-.mobile-search-bar{
+.mobile-search-bar {
     display: none;
     flex-wrap: nowrap;
-   
-height: 100%;
-width: 100vh;
+
+    height: 100%;
+    width: 100vh;
 
     padding: 0.5rem 1rem;
- 
-    border-radius: 4rem;
-    box-shadow:0 1px 2px rgb(0 0 0 / 10%),0 0px 19px rgb(0 0 0 /10%);
 
-   
+    border-radius: 4rem;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 10%), 0 0px 19px rgb(0 0 0 /10%);
+
+
 }
+
 @media only screen and (max-width: 800px) {
-    .mobile-search-bar{
+    .mobile-search-bar {
         display: flex;
         border: 1px solid var(--grey);
     }
-    
-  }
-  .filter{
+
+}
+
+.filter {
 
     margin-left: auto;
-    padding-top: 4px ;
+    padding-top: 4px;
     padding-bottom: 4px;
     padding-left: 4px;
     padding-right: 4px;
     border-radius: 3rem;
     border: 1px solid var(--grey);
-    box-shadow:0 1px 2px rgb(0 0 0 / 10%),0 0px 19px rgb(0 0 0 /10%);
-    
+    box-shadow: 0 1px 2px rgb(0 0 0 / 10%), 0 0px 19px rgb(0 0 0 /10%);
 
-  }
-.search-icon{
+
+}
+
+.search-icon {
     padding-left: 5px;
     padding-top: 8px;
-    
+
 }
-  .Anywhere-name{
-  font-size: small;
-  color: var(--dark);
-  
-  
-  }
- .where-to{
-   font-weight: bold;
+
+.Anywhere-name {
+    font-size: small;
+    color: var(--dark);
 
 
-  }
-  .Anywhere{
+}
+
+.where-to {
+    font-weight: bold;
+
+
+}
+
+.Anywhere {
     display: inline-block;
 
-   padding:0rem 10px;
-   padding-right: auto;
-   
+    padding: 0rem 10px;
+    padding-right: auto;
 
-  }
-  .Anywhere-dot{
- 
-    padding:0.3rem;
+
+}
+
+.Anywhere-dot {
+
+    padding: 0.3rem;
     align-items: center;
- font-size: 15px;
- font-weight:bolder;
+    font-size: 15px;
+    font-weight: bolder;
 
- justify-content: center;
- 
+    justify-content: center;
 
-  }
-  
+
+}
