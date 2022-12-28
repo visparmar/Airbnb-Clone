@@ -21,9 +21,10 @@
 
 }
 
-.filter {
 
- margin-left: auto;
+.filter {
+    
+    margin-left: auto;
     border-radius: 3rem;
     padding: 0.5em 0.5em;
     border: 1px solid var(--grey);
@@ -39,6 +40,7 @@
 }
 
 .Anywhere-name {
+    /* flex-wrap: nowrap; */
     font-size: small;
     color: var(--dark);
 
@@ -53,6 +55,7 @@
 
 .Anywhere {
     display: inline-block;
+    flex-wrap: nowrap;
 
     padding: 0rem 10px;
     padding-right: auto;
