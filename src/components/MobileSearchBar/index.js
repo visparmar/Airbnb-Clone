@@ -25,10 +25,11 @@ export default function MobileSearchBar() {
                     
                     
                 </div>
-                <div className='filter'><TuneOutlinedIcon/></div>
+                <div className='filter'><TuneOutlinedIcon   sx={{ width: 15,height:15}}/></div>
 
         </div>
-
+               
+            
 
 
     )
