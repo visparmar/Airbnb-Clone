@@ -15,11 +15,11 @@ export default function MobileSearchBar() {
 
                 <div className='Anywhere'>
                     <div className='where-to'>Where to?</div>
-                    <span className='Anywhere-name'>Anywhere 
+                    <span className='Anywhere-name' id='p1'>Anywhere 
                     <span className='Anywhere-dot'>.</span>  
-                    <span className='Anywhere-name'>Any Week</span>   
+                    <span className='Anywhere-name'>AnyWeek</span>   
                     <span className='Anywhere-dot'>.</span>
-                    <span className='Anywhere-name'>Add guests</span></span>
+                    <span className='Anywhere-name'>AddGuests</span></span>
                     
                    
                     
@@ -29,7 +29,7 @@ export default function MobileSearchBar() {
 
         </div>
                
-            
+           
 
 
     )
