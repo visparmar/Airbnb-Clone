@@ -7,9 +7,27 @@
     overflow-x: auto;
     top: 0;
     background-color: var(--white);
-
-    
+    scrollbar-color: rebeccapurple green;
+    scrollbar-width: thin;
 }
+.filter-div::-webkit-scrollbar {
+    /* width: 20px; */
+    height: 20px;
+    border-radius: 25px;
+  }
+  .filter-div::-webkit-scrollbar-track {
+    background: linear-gradient(171deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+  }
+
+  .filter-div::-webkit-scrollbar-thumb {
+    
+    background: cornsilk;
+    border-radius: 20px;
+    background-clip: padding-box;
+  }
+
+
+
 .links-box{
 display: flex;
 flex-direction: column;
@@ -18,8 +36,10 @@ margin-right:3rem;
 align-items: center;
 opacity: 0.5;
 border-bottom: 1px solid white;
-min-width: 85px;
 
+min-width: 85px;
+scrollbar-color: rebeccapurple green;
+scrollbar-width: thin;
 }
 
 .selected-filter{
